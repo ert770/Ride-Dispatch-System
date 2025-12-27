@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ride-dispatch-server
+
+# Logging
+logging:
+  level:
+    com.uber: DEBUG
+    org.springframework.web: INFO
